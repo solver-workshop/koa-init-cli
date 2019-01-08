@@ -1,9 +1,9 @@
 [app]
 port = 9001
-name = 'boilerplate'
+name = '{{prjectName}}'
 host = 'http://127.0.0.1:9001'
 
 [mongo]
 host = 'mongodb://127.0.0.1:27017'
-db = 'boilerplate'
+db = '{{prjectName}}'
 password = ''

@@ -1,2 +1,2 @@
 # koa-init-cli
-Init a Koa web server with happiness
+Init a Koa && MongoDB web server with happiness
