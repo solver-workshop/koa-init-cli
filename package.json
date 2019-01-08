@@ -1,6 +1,6 @@
 {
   "name": "koa-init-cli",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Init a Koa && MongoDB web server with happiness",
   "main": "./lib/index.js",
   "bin": {
