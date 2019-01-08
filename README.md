@@ -10,5 +10,5 @@ npm i koa-init-cli -g
 ## Usage
 
 ```
-koa-init-cli my-example-project
+koa-init-cli create my-example-project
 ```
