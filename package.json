@@ -4,7 +4,8 @@
   "description": "Init a Koa web server with happiness",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "./node_modules/.bin/standard",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,11 @@
   "homepage": "https://github.com/DavidCai1993/koa-init-cli#readme",
   "dependencies": {
     "commander": "^2.19.0",
-    "glob": "^7.1.3"
+    "glob": "^7.1.3",
+    "ilog": "^1.2.3",
+    "inquirer": "^6.2.1"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
   }
 }
