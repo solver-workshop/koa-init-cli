@@ -1,0 +1,23 @@
+{
+  "name": "koa-init-cli",
+  "version": "0.1.0",
+  "description": "Init a Koa web server with happiness",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidCai1993/koa-init-cli.git"
+  },
+  "author": "DavidCai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DavidCai1993/koa-init-cli/issues"
+  },
+  "homepage": "https://github.com/DavidCai1993/koa-init-cli#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "glob": "^7.1.3"
+  }
+}
