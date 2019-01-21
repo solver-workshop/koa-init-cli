@@ -1,5 +1,5 @@
 # koa-init-cli
-[![Build Status](https://travis-ci.org/DavidCai1993/koa-init-cli.svg?branch=master)](https://travis-ci.org/DavidCai1993/koa-init-cli)
+[![Build Status](https://travis-ci.org/solver-workshop/koa-init-cli.svg?branch=master)](https://travis-ci.org/solver-workshop/koa-init-cli)
 
 Init a Koa && MongoDB web application with happiness
 
