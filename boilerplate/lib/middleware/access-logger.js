@@ -25,7 +25,7 @@ module.exports = async function (ctx, next) {
 
 function _log (ctx, startTime, err = {}) {
   let logInfo = {
-    ip: ctx.ip,
+    ip: ctx.get('x-real-ip') || ctx.ip,
     method: ctx.method.toUpperCase(),
     url: ctx.url,
     status: err.status || ctx.status,
