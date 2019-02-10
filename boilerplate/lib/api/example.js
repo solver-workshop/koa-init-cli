@@ -17,6 +17,8 @@ const validator = require('../util/validator')
  *     tags:
  *       - 示例模型
  *     description: 创建示例模型
+ *     consumes:
+ *       - application/json
  *     produces:
  *       - application/json
  *     parameters:
